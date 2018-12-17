@@ -6,5 +6,7 @@ public class Stu {
 
         System.out.println("1dada");
 
+        System.out.println("这是分支");
+
     }
 }
