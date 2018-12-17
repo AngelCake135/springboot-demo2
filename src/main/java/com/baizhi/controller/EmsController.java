@@ -4,6 +4,7 @@ package com.baizhi.controller;
 import com.baizhi.entity.Ems;
 import com.baizhi.mapper.EmsMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,6 +19,7 @@ public class EmsController {
 
     @RequestMapping("/test")
     public List<Ems> test() {
+
 
         Ems ems1 = new Ems();
         ems1.setCity("北京");
