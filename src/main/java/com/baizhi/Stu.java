@@ -5,6 +5,7 @@ public class Stu {
     public void main() {
 
         System.out.println("--------------");
+        System.out.println("++++++++++++++");
         System.out.println("1dada");
 
         System.out.println("这是分支");
